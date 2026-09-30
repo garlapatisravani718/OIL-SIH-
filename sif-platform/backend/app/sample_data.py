@@ -1,0 +1,21 @@
+# (type, site, location, activity, date, description)
+SAMPLES = [
+ ("Unsafe Condition", "Duliajan", "Processing Unit A", "Maintenance", "2026-04-03", "An open electrical panel was observed near the maintenance area. The panel was energized and no barricade was placed around the area."),
+ ("Near Miss", "Duliajan", "Drilling Rig 7", "Lifting", "2026-04-11", "During lifting activity, a worker entered the area below a suspended load."),
+ ("Unsafe Act", "Digboi", "Refinery Yard", "Hot Work", "2026-04-19", "Worker started hot work without completing the required safety checks."),
+ ("Unsafe Condition", "Duliajan", "Admin Building", "Housekeeping", "2026-04-22", "A housekeeping issue was observed in the office corridor with some papers placed near a walkway."),
+ ("Unsafe Act", "Duliajan", "Processing Unit A", "Confined Space", "2026-05-02", "Worker entered a confined space without gas testing."),
+ ("Near Miss", "Digboi", "Tank Farm", "Maintenance", "2026-05-08", "Maintenance crew began work on a pump without isolation being verified. Lockout tags were missing."),
+ ("Incident", "Jorhat", "Well Site 12", "Drilling", "2026-05-14", "A crane sling failed during lifting and a load dropped near two workers. No one was injured."),
+ ("Unsafe Condition", "Jorhat", "Well Site 12", "Electrical Work", "2026-05-21", "Live wire found exposed near a junction box. The area was not barricaded and no isolation was applied."),
+ ("Unsafe Act", "Duliajan", "Processing Unit A", "Maintenance", "2026-06-03", "Technician worked on a scaffold without harness while repairing a valve."),
+ ("Near Miss", "Digboi", "Refinery Yard", "Hot Work", "2026-06-10", "Welding sparks fell near a flammable liquid drum. Hot work permit was not completed."),
+ ("Unsafe Condition", "Duliajan", "Warehouse", "Housekeeping", "2026-06-17", "Loose stationery and cartons were left near the store entrance."),
+ ("Unsafe Act", "Jorhat", "Drilling Rig 3", "Lifting", "2026-07-01", "Rigger stood in the line of fire while a crane moved a pipe bundle."),
+ ("Near Miss", "Duliajan", "Processing Unit A", "Maintenance", "2026-07-09", "Energy isolation was not verified before pump maintenance. Workers noticed residual pressure."),
+ ("Unsafe Condition", "Digboi", "Tank Farm", "Confined Space", "2026-07-18", "Tank entry planned but gas test equipment was not available at the manhole."),
+ ("Unsafe Act", "Duliajan", "Admin Building", "Housekeeping", "2026-08-04", "Employee left a chair in the corridor after a meeting."),
+ ("Incident", "Jorhat", "Well Site 12", "Electrical Work", "2026-08-12", "An electrician received a minor shock while working on an energized panel without lockout."),
+ ("Near Miss", "Duliajan", "Drilling Rig 7", "Drilling", "2026-09-02", "A falling object dropped from the rig floor near the crew. Barricade was missing below the work area."),
+ ("Unsafe Act", "Digboi", "Refinery Yard", "Hot Work", "2026-09-15", "Grinding was carried out near a drain without hot work permit."),
+]
